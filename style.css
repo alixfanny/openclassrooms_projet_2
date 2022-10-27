@@ -1,0 +1,15 @@
+body{
+    max-width: 1400px;
+    margin-left: 55px;
+    margin-right: 53;
+    margin-top: 44px;  
+}
+
+.logo{
+    max-width: 61px;
+    max-height: 19px;
+}
+
+ul{
+    list-style-type: none;
+}
