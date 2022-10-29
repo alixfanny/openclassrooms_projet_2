@@ -23,7 +23,6 @@ h4{
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    margin-right: 53px;
     margin-top: 44px;
     font-family: "raleway";
 }
@@ -81,6 +80,9 @@ form{
     color: white;
     border-style: none;
     padding: 14px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "raleway";
 }
 
 .bouton_recherche h3{
@@ -99,17 +101,21 @@ form{
 
 .localisation i{
     width: 14px;
-    height: 18px;
 }
 
 input{
    border-color: #F2F2F2;
    border-style: none;
+   font-family: "raleway";
+   padding-left: 16px;
+   font-weight: bold;
+   font-size: 18px;
+   border-top: #F2F2F2 2px solid;
+   border-bottom: #F2F2F2 2px solid;
 }
 
 .filtres{
     display: flex;
-    justify-content: start;
     margin-top: 30px;
 }
 
@@ -128,12 +134,30 @@ input{
     color: #0065fc;
 }
 
+.information{
+    display: flex;
+    margin-top: 53px;
+}
+
+.information i{
+    border: 2px #F2F2F2 solid;
+    border-radius: 50px;
+    color: #0065fc;
+    padding: 3px 9px 3px 9px;
+    margin-right: 11px;
+}
+
+.information h4{
+    margin: 0px;
+}
+
 /* CSS section hebergement */
 
 .hebergements{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 39px;
 }
 
 .card_hebergement{
@@ -142,9 +166,8 @@ input{
     justify-content: space-between;
 }
 .card_hebergement article img{
-    height: 124px;
-    width: 246px;
     border-radius: 20px 20px 0px 0px;
+    max-width: 110%;
 }
 
 .card_hebergement article{
@@ -153,7 +176,12 @@ input{
     margin-bottom: 30px;
     padding: 11px;
     height: auto;
-    
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card_hebergement .wrapper{
+    width: 246px;
+    height: 124px;
 }
 
 .card_hebergement article h4{
@@ -163,9 +191,14 @@ input{
     margin: 9px 16px;
 }
 
-.note{
+.card_hebergement .note{
     margin-left: 16px;
     height: 11px;
+    color: #0065fc;
+    padding-bottom: 11px;
+}
+
+.card_populaire .note{
     color: #0065fc;
 }
 .note .etoile{
@@ -174,16 +207,25 @@ input{
 
 .card_populaire .hotel{
     margin-left:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card_populaire .hotel h4{
     margin-bottom:15px;
+    margin: 0px;
+    padding-top: 16px;
 }
 
 .card_populaire img{
-    height: 144px;
-    width: 137px;
     border-radius: 20px 0px 0px 20px;
+    max-width: 110%;
+}
+
+.card_populaire .wrapper{
+    width: 137px;
+    height: 144px;
 }
 
 .card_populaire article{
@@ -192,6 +234,7 @@ input{
     margin-bottom: 30px;
     padding: 11px;
     display: flex;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1)
 }
  
 aside .titre{
@@ -230,22 +273,31 @@ aside{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
-.activites img{
+.activites .photo{
     width: 302px;
     height: 389px;
     border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper img{
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
 }
 
 .activites h4{
     border-radius: 0px 0px 20px 20px;
-    box-shadow: 2px 2px 2px #F2F2F2;
-    padding-left: 19px;
-    padding-bottom: 21px;
-    padding-top: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     margin-top: 0px;
-    
 }
 
 /* CSS partie footer */
@@ -255,19 +307,11 @@ aside{
     background-color: #F2F2F2;
     display: flex;
     justify-content: start;
+    padding: 45px 70px;
 }
 
-.container .propos{
-    margin-left: 70px;
-    margin-bottom: 58px;
-}
-
-.container .hebergement{
-    margin-left: 347px; 
-}
-
-.container .assistance{
-    margin-left: 239px;
+.container article{
+    width: 100%;
 }
 
 .container h3{
