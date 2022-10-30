@@ -3,20 +3,9 @@
     src: url('Raleway-VariableFont_wght.ttf');
 }
 
-h1{
-    font-size: 22px;
-}
-
-h2{
-    font-size: 22px;
-}
-
-h3{
-    font-size: 18px;
-}
-
-h4{
-    font-size: 16px;
+a{
+    text-decoration: none;
+    color: black;
 }
 
 #app{
@@ -36,7 +25,6 @@ h4{
 }
 
 .logo{
-    max-width: 61px;
     max-height: 19px;
 }
 
@@ -46,65 +34,36 @@ h4{
     padding-right: 77px;
 }
 
-.menu a{
-    display: block;
-    text-decoration: none;
-    color: black;
-}
-
-/* CSS section recherche */
-
 .lien a{
     color: #0065fc;
     padding-right: 67px;
 }
 
+/* CSS section recherche */
+
 .recherche h2{
-    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.recherche h4{
-    margin-top: 8px;
-    margin-bottom: 20px;
-    font-weight: 400;
+.espace_recherche{
+    margin-top: 21px;
 }
 
 form{
     display: flex;
 }
 
-.bouton_recherche{
-    background-color: #0065fc;
-    border-radius: 0px 15px 15px 0px;
-    border-color: #0065fc;
-    color: white;
-    border-style: none;
-    padding: 14px 16px;
-    font-size: 18px;
-    font-weight: 700;
-    font-family: "raleway";
-}
-
-.bouton_recherche h3{
-    margin: 0px;
-}
-
 .localisation{
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     width: 50px;
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.localisation i{
-    width: 14px;
-}
-
 input{
-   border-color: #F2F2F2;
    border-style: none;
    font-family: "raleway";
    padding-left: 16px;
@@ -114,17 +73,32 @@ input{
    border-bottom: #F2F2F2 2px solid;
 }
 
+.bouton_recherche{
+    background-color: #0065fc;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    border-style: none;
+    padding: 14px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "raleway";
+}
+
 .filtres{
     display: flex;
     margin-top: 30px;
 }
 
 .filtres article{
-    border: 3px solid #F2F2F2;
+    border: 2px solid #F2F2F2;
     border-radius: 25px;
     display: flex;
     margin-left: 50px;
     padding: 0px 15px;
+}
+
+.filtres article:hover{
+    border: #0065fc solid 2px;
 }
 
 .filtres i{
@@ -136,6 +110,7 @@ input{
 
 .information{
     display: flex;
+    align-items: center;
     margin-top: 53px;
 }
 
@@ -145,10 +120,6 @@ input{
     color: #0065fc;
     padding: 3px 9px 3px 9px;
     margin-right: 11px;
-}
-
-.information h4{
-    margin: 0px;
 }
 
 /* CSS section hebergement */
@@ -233,10 +204,12 @@ input{
     border-radius: 20px;
     margin-bottom: 30px;
     padding: 11px;
-    display: flex;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1)
 }
  
+.card_populaire a{
+    display: flex;
+}
 aside .titre{
     display: flex;
     justify-content: space-between;
