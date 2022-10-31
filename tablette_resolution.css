@@ -1,0 +1,54 @@
+#app{
+    width: 95%;
+    overflow: hidden;
+}
+
+.lien a{
+    color: black;
+}
+
+.filtres article{
+    margin-left: 25px;
+}
+
+.hebergements{
+    display: flex;
+    flex-direction: column;
+}
+
+.carte_logement{
+    margin-bottom: 51px;
+}
+
+.card{
+    width: 90%;
+    margin: auto;
+}
+
+.card_populaire{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside{
+    width: 90%;
+    height: auto;
+}
+
+.card_populaire article{
+    width: 240px;
+}
+
+.card_activites a{
+    display: block;
+    width: 182px;
+}
+
+.card_activites .photo{
+    width: 182px;
+    height: 267px;
+}
+
+.information{
+    margin-top: 39px;
+}

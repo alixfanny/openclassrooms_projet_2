@@ -192,6 +192,8 @@ input{
 .card_populaire img{
     border-radius: 20px 0px 0px 20px;
     max-width: 110%;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .card_populaire .wrapper{
