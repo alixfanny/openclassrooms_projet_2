@@ -2,8 +2,8 @@
     width: 95%;
 }
 
-.header{
-    align-items: center;
+.menu{
+    padding-right: 0px;
 }
 
 .lien a{
@@ -44,34 +44,32 @@
     width: 97%;
     height: 685px;
     padding: 10px;
+    margin-bottom: 25px;
 
-}
-
-.card_hebergement article{
-    width: 25%;
 }
 
 .card_hebergement article a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 220px;
 }
 
-.card_hebergement .wrapper{
-    width: 175px;
+.card_hebergement article img{
+    width: auto;
 }
 
 aside{
-    margin-top: 40px;
-    width: 710px;
-    height: 100%;
-    padding: 8px;
-    margin-bottom: 50px;
+    width: auto;
+    padding: 25px 15px;
 }
 
 .card_populaire .wrapper{
     border-radius: 20px 0px 0px 20px;
+    width: 175px;
+}
+
+.activites h2{
+    margin-bottom: 35px;
 }
 
 .card_activites article{
