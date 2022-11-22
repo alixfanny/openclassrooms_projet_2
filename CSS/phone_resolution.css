@@ -1,0 +1,161 @@
+#app{
+    width: 100%;
+}
+
+/* CSS section recherche*/
+
+.header{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 21px;
+    padding-bottom: 24px;
+    margin-bottom: 31px;
+}
+
+nav{
+    width: 100%;
+}
+
+.lien{
+    width: 50%;
+    border-top: none;
+    margin: 0px;
+    text-align: center;
+    border-bottom: 2px solid #f2f2f2;
+}
+.lien a{
+   
+    padding-bottom: 20px;
+}
+
+.lien:hover{
+    border-top: none;
+}
+
+.lien a:hover{
+    color: black;
+}
+
+.lien:active{
+    border-bottom: 2px solid #0065fc;
+}
+
+.lien a:active{
+    color: #0065fc;
+}
+
+.espace_recherche{
+    display: flex;
+    justify-content: center;
+}
+
+.recherche{
+    padding: 0px 10px;
+}
+
+.bouton_recherche span{
+    display: none;
+}
+
+.bouton_recherche i{
+    display: flex;
+    color: white;
+}
+
+.menu{
+    padding: 0px;
+}
+
+input{
+    font-size: 12px;
+    width: 250px;
+}
+
+.filtres{
+    flex-wrap: wrap;
+}
+
+.filtres p{
+    width: 100%;
+}
+
+.filtres div{
+    width: 30%;
+}
+
+.filtres div:focus{
+    background-color: #DEEBFF;
+}
+
+.filtres i{
+    padding-right: 5px;
+}
+
+.filtres .space_filtre{
+    margin-top: 10px;
+}
+
+/* CSS section hebergements */
+
+aside{
+    order: -1;
+    border-radius: 0%;
+}
+
+.card_populaire{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    background-color: white;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.card_hebergement{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.card .none{
+    font-size: 0px;
+}
+
+.card_populaire .wrapper{
+    flex: 1;
+}
+
+.card_populaire .hotel{
+    flex: 1;
+}
+
+/* CSS section activites */
+
+.activites{
+    margin-top: 0px;
+}
+.activites h2{
+    margin-left: 15px;
+}
+
+.card_activites{
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_activites article{
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.card_activites .photo{
+    height: 190px;
+}
+
+/* partie footer */ 
+
+.container{
+    flex-direction: column;
+}

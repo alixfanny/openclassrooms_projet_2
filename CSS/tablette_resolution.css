@@ -1,0 +1,91 @@
+#app{
+    width: 95%;
+}
+
+.menu{
+    padding-right: 0px;
+}
+
+/* CSS section recherche*/
+
+.filtres{
+    align-items: center;
+}
+
+.filtres div{
+    margin-left: 25px;
+}
+
+.filtres p{
+    font-size: 14px;
+}
+.filtres div p{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.information{
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+/* CSS section hebergements */
+
+.hebergements{
+    flex-direction: column;
+    height: auto;
+}
+
+.card{
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 25px;
+
+}
+
+aside{
+    margin-left: 0px;
+}
+
+.card_populaire{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+}
+
+.card_populaire .hotel .weight{
+    font-size: 14px;
+}
+
+.card_populaire .hotel p{
+font-size: 12px;
+}
+
+.wrappers{
+    flex: 1;
+}
+
+/* CSS section activites */
+
+.activites h2{
+    margin-bottom: 35px;
+}
+
+.card_activites article{
+    width: 150px;
+}
+
+.card_activites article p{
+    font-size: 14px;
+}
+
+/* partie footer */ 
+
+.container{
+    padding: 30px 50px;
+}
+
+.container p{
+    font-size: 12px;
+}
+
