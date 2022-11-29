@@ -53,8 +53,12 @@ aside{
     gap: 5%;
 }
 
+.card_populaire .hotel{
+    flex: 1;
+}
+
 .card_populaire .hotel .weight{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .card_populaire .hotel p{
@@ -71,11 +75,7 @@ font-size: 12px;
     margin-bottom: 35px;
 }
 
-.card_activites article{
-    width: 150px;
-}
-
-.card_activites article p{
+.card_activites article h3{
     font-size: 14px;
 }
 

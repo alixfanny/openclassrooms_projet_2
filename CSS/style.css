@@ -5,7 +5,7 @@ a{
 }
 
 #app{
-    max-width: 1040px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
     font-family: "raleway";
@@ -166,7 +166,7 @@ input{
 }
 
 .carte_logement{
-    flex: 3;
+    flex: 2;
 }
 
 .card{
@@ -222,11 +222,10 @@ input{
  }
 
 .card_populaire .hotel{
-    margin-left:15px;
+    padding-left:10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: 1;
 }
 
 .card_populaire .hotel .weight{
@@ -237,8 +236,13 @@ input{
 
 .card_populaire img{
     border-radius: 20px 0px 0px 20px;
-    max-width: 110%;
-    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
 }
 
 .card_populaire .hotel p{
@@ -253,7 +257,7 @@ input{
 .card_populaire article{
     background-color: white;
     border-radius: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     padding: 5px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 
@@ -265,8 +269,9 @@ input{
 
 .wrappers{
    overflow: hidden;
+   position: relative;
    width: 120px;
-   height: 200px;
+   height: 150px;
 }
 
 aside .titre{
@@ -293,6 +298,7 @@ aside{
 .activites{
     margin-top: 60px;
 }
+
 .card_activites{
     display: flex;
     flex-direction: row;
@@ -303,7 +309,7 @@ aside{
     border-radius: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 230px;
+    width: 23%;
 }
 
 .activites .photo{
@@ -317,12 +323,13 @@ aside{
 
 .wrapper img{
     position: absolute;
-    top: 60%;  
+    top: 50%;  
     left: 50%; 
     transform: translate(-50%, -50%);
 }
 
-.card_activites p{
+.card_activites h3{
+    font-size: 16px;
     padding: 15px;
     margin-top: 0px;
     font-weight: 700;
@@ -339,13 +346,15 @@ aside{
 
 .container article{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .container h4{
     margin-bottom: 20px;
 }
 
-.container p{
+.container a{
     margin-bottom: 12px;
     font-weight: 400;
 }

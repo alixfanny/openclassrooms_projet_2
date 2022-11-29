@@ -127,6 +127,10 @@ aside{
     flex: 1;
 }
 
+.card_populaire article{
+    margin-bottom: 30px;
+}
+
 .card_populaire .hotel{
     flex: 1;
 }
